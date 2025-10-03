@@ -1,4 +1,6 @@
 {
+{
+  "extends": "../../packages/tsconfig/nest.json",
   "compilerOptions": {
     "module": "commonjs",
     "target": "ES2021",
@@ -10,8 +12,13 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "outDir": "dist",
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "types": ["node", "jest"],
+    "paths": {
+      "@repo/shared": ["../../packages/shared/src"]
+    }
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "test/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }
+

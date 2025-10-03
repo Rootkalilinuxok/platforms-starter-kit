@@ -20,7 +20,9 @@ async function bootstrap() {
       },
     }),
   );
+
   app.use(bodyParser.urlencoded({ extended: true }));
+
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
@@ -29,9 +31,9 @@ async function bootstrap() {
     }),
   );
 
-  const port = process.env.PORT ? Number(process.env.PORT) : 4000;
+  const port = process.env.PORT ? Number(process.env.PORT) : 3000;
   await app.listen(port);
-  console.log(`Billing API running on http://localhost:${port}`);
+  console.log(`API running on http://localhost:${port}`);
 }
 
 bootstrap().catch((error) => {
