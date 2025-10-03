@@ -6,16 +6,16 @@ import './globals.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
-  subsets: ['latin']
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-  title: sharedConstants.appName,
-  description: 'Next.js template for building a multi-tenant SaaS.'
+  title: sharedConstants.appName ?? 'Platforms Starter Kit',
+  description: 'Next.js template for building a multi-tenant SaaS.',
 };
 
 export default function RootLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
