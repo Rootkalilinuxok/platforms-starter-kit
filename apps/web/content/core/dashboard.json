@@ -1,0 +1,20 @@
+{
+  "summaries": [
+    {
+      "title": "Regulatory horizon",
+      "body": "Upcoming MiCA and DORA updates mapped to your playbooks for early remediation.",
+      "tone": "info"
+    },
+    {
+      "title": "Automation insights",
+      "body": "Workflow simulations indicate a 12% capacity gain if you enable automated underwriter escalation.",
+      "tone": "success"
+    },
+    {
+      "title": "Risk alerts",
+      "body": "Customer monitoring flagged 4 escalations that require compliance review within 24 hours.",
+      "tone": "warning"
+    }
+  ],
+  "documents": []
+}
