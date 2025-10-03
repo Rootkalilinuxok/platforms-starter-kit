@@ -1,0 +1,57 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Subscription {
+  id                   String    @id @default(cuid())
+  userId               String
+  planId               String
+  status               String
+  stripeCustomerId     String?
+  stripeSubscriptionId String?   @unique
+  currentPeriodStart   DateTime?
+  currentPeriodEnd     DateTime?
+  cancelAtPeriodEnd    Boolean   @default(false)
+  canceledAt           DateTime?
+  metadata             Json?
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+  payments             Payment[]
+
+  @@index([userId])
+  @@index([planId])
+  @@unique([userId, planId])
+}
+
+model Payment {
+  id                  String       @id @default(cuid())
+  subscriptionId      String?
+  userId              String
+  stripePaymentIntent String?      @unique
+  stripeInvoiceId     String?      @unique
+  amount              Int
+  currency            String
+  status              String
+  hostedInvoiceUrl    String?
+  invoicePdf          String?
+  metadata            Json?
+  createdAt           DateTime     @default(now())
+  updatedAt           DateTime     @updatedAt
+  subscription        Subscription? @relation(fields: [subscriptionId], references: [id])
+
+  @@index([userId])
+}
+
+model IdempotencyKey {
+  id         String   @id @default(cuid())
+  key        String   @unique
+  method     String
+  path       String
+  response   Json?
+  createdAt  DateTime @default(now())
+}
