@@ -1,0 +1,8 @@
+ignoredBuiltDependencies:
+  - '@nestjs/core'
+  - bcrypt
+
+onlyBuiltDependencies:
+  - '@prisma/client'
+  - '@prisma/engines'
+  - prisma
