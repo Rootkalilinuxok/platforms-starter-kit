@@ -1,5 +1,4 @@
 {
-{
   "extends": "../../packages/tsconfig/next.json",
   "compilerOptions": {
     "baseUrl": ".",

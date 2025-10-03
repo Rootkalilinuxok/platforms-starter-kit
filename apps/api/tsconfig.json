@@ -1,5 +1,4 @@
 {
-{
   "extends": "../../packages/tsconfig/nest.json",
   "compilerOptions": {
     "module": "commonjs",
