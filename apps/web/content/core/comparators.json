@@ -1,0 +1,50 @@
+{
+  "banking": {
+    "leaders": [
+      {
+        "name": "Northwind Bank",
+        "coverage": "Multi-country onboarding with eIDAS support",
+        "automation": 78,
+        "countries": 15
+      },
+      {
+        "name": "Contoso Capital",
+        "coverage": "SME lending journeys with instant decisioning",
+        "automation": 64,
+        "countries": 9
+      }
+    ]
+  },
+  "insurance": {
+    "leaders": [
+      {
+        "name": "Fabrikam Assurance",
+        "coverage": "Digital claims triage and fraud detection",
+        "automation": 72,
+        "countries": 11
+      },
+      {
+        "name": "Blue Yonder Mutual",
+        "coverage": "Usage-based products with telemetry ingestion",
+        "automation": 58,
+        "countries": 6
+      }
+    ]
+  },
+  "utilities": {
+    "leaders": [
+      {
+        "name": "Tailwind Energy",
+        "coverage": "Smart meter activation and credit decisioning",
+        "automation": 69,
+        "countries": 8
+      },
+      {
+        "name": "Litware Connect",
+        "coverage": "Telco onboarding with real-time risk scoring",
+        "automation": 61,
+        "countries": 5
+      }
+    ]
+  }
+}

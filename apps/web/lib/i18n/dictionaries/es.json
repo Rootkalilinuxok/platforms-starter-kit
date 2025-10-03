@@ -1,0 +1,170 @@
+{
+  "common": {
+    "productName": "Aurora Platform",
+    "tagline": "Operaciones unificadas para mercados regulados",
+    "cta": {
+      "primary": "Solicitar demo",
+      "secondary": "Explorar guías"
+    },
+    "nav": {
+      "pricing": "Precios",
+      "comparators": "Comparadores",
+      "dashboard": "Panel"
+    },
+    "footer": {
+      "rights": "Todos los derechos reservados.",
+      "contact": "Contactar ventas"
+    }
+  },
+  "marketing": {
+    "hero": {
+      "title": "Opera más rápido en cada jurisdicción",
+      "body": "Aurora Platform centraliza onboarding, monitorización y compliance para que los equipos colaboren sin cambiar de herramienta.",
+      "badge": "Nuevo: plantillas de automatización"
+    },
+    "highlights": {
+      "title": "Diseñada para escalar",
+      "items": [
+        {
+          "title": "Journeys integrales",
+          "description": "Diseña workflows de onboarding, underwriting y revisión que se adaptan a cada mercado."
+        },
+        {
+          "title": "Automatización fiable",
+          "description": "Automatiza verificaciones repetitivas manteniendo el control humano con políticas granulares."
+        },
+        {
+          "title": "Espacio de compliance",
+          "description": "Consolida evidencias, renovaciones y auditorías en un único espacio seguro."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Preferida por líderes de operaciones",
+      "quote": "Reducimos los tiempos de onboarding un 47% tras unificar los workflows con Aurora.",
+      "author": "Giulia Santoro, COO en Northwind Insurance"
+    },
+    "pricing": {
+      "title": "Elige el plan que crece contigo",
+      "subtitle": "Paquetes transparentes para operadores regulados."
+    }
+  },
+  "pricing": {
+    "plans": [
+      {
+        "name": "Launch",
+        "price": "79 €",
+        "period": "al mes",
+        "description": "Todo lo esencial para lanzar en una región.",
+        "features": [
+          "Journeys de onboarding",
+          "Repositorio documental",
+          "1 vertical comparadores"
+        ]
+      },
+      {
+        "name": "Scale",
+        "price": "189 €",
+        "period": "al mes",
+        "description": "Automatización avanzada y soporte multi-mercado.",
+        "features": [
+          "Workflows ilimitados",
+          "Motor de scoring de riesgo",
+          "4 verticales comparadores"
+        ],
+        "highlight": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "A medida",
+        "period": "",
+        "description": "Gobernanza, hosting e integraciones personalizadas.",
+        "features": [
+          "Consultor dedicado",
+          "Residencia de datos regional",
+          "Conectores on-prem"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo cambiar de plan más adelante?",
+        "answer": "Sí, puedes actualizar o reducir tu plan en cualquier momento desde la consola de facturación."
+      },
+      {
+        "question": "¿Incluye soporte de implantación?",
+        "answer": "Todos los planes incluyen sesiones guiadas y configuración de plantillas."
+      }
+    ]
+  },
+  "comparators": {
+    "verticals": {
+      "banking": {
+        "name": "Banking",
+        "summary": "Compara onboarding, KYC y lending entre los principales bancos.",
+        "metrics": [
+          {
+            "label": "Tiempo medio de aprobación",
+            "unit": "horas"
+          },
+          {
+            "label": "Cobertura de automatización",
+            "unit": "%"
+          },
+          {
+            "label": "Países soportados",
+            "unit": "mercados"
+          }
+        ]
+      },
+      "insurance": {
+        "name": "Insurance",
+        "summary": "Benchmarks de underwriting, triaje de siniestros e integraciones de partners.",
+        "metrics": [
+          {
+            "label": "Emisión de pólizas",
+            "unit": "minutos"
+          },
+          {
+            "label": "Resolución de siniestros",
+            "unit": "días"
+          },
+          {
+            "label": "Integraciones con brokers",
+            "unit": "APIs"
+          }
+        ]
+      },
+      "utilities": {
+        "name": "Utilities",
+        "summary": "Evalúa onboarding digital y compliance para energía y telecom.",
+        "metrics": [
+          {
+            "label": "Tiempo de cambio",
+            "unit": "días"
+          },
+          {
+            "label": "Adopción self-service",
+            "unit": "%"
+          },
+          {
+            "label": "Cobertura de campo",
+            "unit": "regiones"
+          }
+        ]
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "Bienvenido de nuevo",
+    "overview": "Esto es lo que ocurre hoy en tus operaciones.",
+    "documents": {
+      "title": "Últimas presentaciones",
+      "empty": "No hay documentos pendientes de revisión."
+    },
+    "settings": {
+      "title": "Centro de control",
+      "description": "Gestiona espacios de trabajo, automatizaciones y evidencias regulatorias."
+    }
+  }
+}

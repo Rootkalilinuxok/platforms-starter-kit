@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "primaryCta": {
+      "href": "/request-demo",
+      "label": "Request a personalised walkthrough"
+    },
+    "secondaryCta": {
+      "href": "https://docs.aurora.example",
+      "label": "Browse integration guides"
+    }
+  },
+  "features": [
+    {
+      "icon": "radar",
+      "title": "Real-time monitoring",
+      "description": "Track risk signals across onboarding, underwriting and servicing in a single view."
+    },
+    {
+      "icon": "workflow",
+      "title": "Orchestrated workflows",
+      "description": "Drag-and-drop builders help ops teams launch new journeys without code."
+    },
+    {
+      "icon": "shield-check",
+      "title": "Evidence ready",
+      "description": "Generate audit-ready reports with automatic retention and redaction policies."
+    }
+  ],
+  "stats": [
+    {
+      "value": "47%",
+      "label": "Faster onboarding"
+    },
+    {
+      "value": "18",
+      "label": "Markets supported"
+    },
+    {
+      "value": "99.95%",
+      "label": "Platform uptime"
+    }
+  ]
+}

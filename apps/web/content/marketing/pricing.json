@@ -1,0 +1,31 @@
+{
+  "addons": [
+    {
+      "title": "Advanced screening",
+      "description": "Plug external risk intelligence feeds into Aurora workflows.",
+      "price": "€0.12 per screening"
+    },
+    {
+      "title": "Sandbox tenant",
+      "description": "Clone production setup to experiment with automation safely.",
+      "price": "€59 per month"
+    }
+  ],
+  "comparisons": [
+    {
+      "category": "Automation coverage",
+      "aurora": "85% of repeat tasks",
+      "legacy": "32% across legacy BPM"
+    },
+    {
+      "category": "Regulatory updates",
+      "aurora": "Weekly curated briefs",
+      "legacy": "Manual spreadsheet tracking"
+    },
+    {
+      "category": "Time to launch",
+      "aurora": "3 weeks",
+      "legacy": "5 months"
+    }
+  ]
+}
